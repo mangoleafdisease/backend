@@ -1,3 +1,5 @@
+pip install --upgrade pydantic
+pip install pydantic
 tensorflow==2.5.0
 fastapi
 uvicorn
@@ -6,3 +8,4 @@ pillow
 tensorflow-serving-api==2.5.0
 matplotlib
 numpy
+pip install --upgrade pydantic
