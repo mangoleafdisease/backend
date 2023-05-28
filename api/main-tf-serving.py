@@ -24,7 +24,7 @@ app.add_middleware(
 endpoint = "http://localhost:8501/v1/models/potatoes_model:predict"
 
 #sorted alphabeticaly from model trainings
-CLASS_NAMES = ["Anthracnose", "Bacterial Canker", "Black Soothy Mold", "Cutting Weevil", "Die Back", "Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
+CLASS_NAMES = ["Anthracnose", "Bacterial Canker","Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
 
 @app.get("/ping")
 async def ping():

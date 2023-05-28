@@ -24,7 +24,7 @@ app.add_middleware(
 
 MODEL = tf.keras.models.load_model("../models/7")
 
-CLASS_NAMES = ["Anthracnose", "Bacterial Canker", "Black Soothy Mold", "Cutting Weevil", "Die Back", "Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
+CLASS_NAMES = ["Anthracnose", "Bacterial Canker","Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
 RECOMMENDATIONS = None
 @app.get("/ping")
 async def ping():

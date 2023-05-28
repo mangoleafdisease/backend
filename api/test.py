@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 
-class_names = ["Anthracnose", "Bacterial Canker", "Black Soothy Mold", "Cutting Weevil", "Die Back", "Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
+class_names = ["Anthracnose", "Bacterial Canker","Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
 
 
 @app.get("/ping")
