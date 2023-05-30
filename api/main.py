@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("../models/7")
+MODEL = tf.keras.models.load_model("../models/9/1")
 
 CLASS_NAMES = ["Anthracnose", "Bacterial Canker","Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
 RECOMMENDATIONS = None

@@ -53,7 +53,7 @@ async def predict(
     return {"class": predicted_class, "confidence": confidence}
 
 def predict_using_regular_model(img):
-    model = tf.keras.models.load_model("../mango.h5")
+    model = tf.keras.models.load_model("../mango3.h5")
     img_array = tf.expand_dims(img, 0)
     predictions = model.predict(img_array)
 

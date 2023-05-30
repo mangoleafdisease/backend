@@ -8,7 +8,7 @@ import tensorflow as tf
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
-MODEL = tf.keras.models.load_model("models/7")
+MODEL = tf.keras.models.load_model("./models/9/1")
 
 CLASS_NAMES = ["Anthracnose", "Bacterial Canker", "Black Soothy Mold", "Cutting Weevil", "Die Back", "Gail Midge", "Healthy", "Powdery Mildew", "Sooty Mould" ]
 RECOMMENDATIONS = None
